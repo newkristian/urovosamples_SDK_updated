@@ -1,0 +1,60 @@
+#built application files
+*.apk
+*.ap_
+*.aab
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Android Studio and intellij
+*.iml
+.idea
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+
+# Gradle files
+.gradle/
+build/
+
+# Android Studio generated files and folders
+.externalNativeBuild/
+.cxx/
+.navigation
+captures/
+output.json
+
+#NDK
+obj/
+.externalNativeBuild
+
+# Log/OS Files
+*.log
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof

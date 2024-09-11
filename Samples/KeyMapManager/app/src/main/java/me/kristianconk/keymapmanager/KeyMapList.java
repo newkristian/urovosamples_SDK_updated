@@ -1,4 +1,4 @@
-package com.example.keymapmanager;
+package me.kristianconk.keymapmanager;
 
 import android.app.Activity;
 import android.content.Context;

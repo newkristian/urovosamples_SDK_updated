@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.iccmanager"
-    android:versionCode="1"
-    android:versionName="2.3.406" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/icc"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.iccmanager.MainActivity"
+            android:name="me.kristianconk.iccmanager.MainActivity"
+            android:exported="true"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,9 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.iccmanager.ICCActivity" android:label="@string/icc"/>
-        <activity android:name="com.example.iccmanager.PSAMActivity" android:label="@string/psam"/>
-        <activity android:name="com.example.iccmanager.SLE4442Activity" android:label="@string/sle4442"/>
+        <activity android:name="me.kristianconk.iccmanager.ICCActivity" android:label="@string/icc"/>
+        <activity android:name="me.kristianconk.iccmanager.PSAMActivity" android:label="@string/psam"/>
+        <activity android:name="me.kristianconk.iccmanager.SLE4442Activity" android:label="@string/sle4442"/>
     </application>
 
 </manifest>

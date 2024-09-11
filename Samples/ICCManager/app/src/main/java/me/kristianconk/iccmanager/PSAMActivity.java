@@ -1,11 +1,10 @@
-package com.example.iccmanager;
+package me.kristianconk.iccmanager;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.device.IccManager;
 import android.util.Log;
 import android.widget.EditText;
-import android.widget.Toast;
 
 public class PSAMActivity extends Activity {
     private EditText mNo;

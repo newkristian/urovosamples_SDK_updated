@@ -1,4 +1,4 @@
-package com.example.iccmanager;
+package me.kristianconk.iccmanager;
 
 import android.content.Intent;
 import android.os.Bundle;

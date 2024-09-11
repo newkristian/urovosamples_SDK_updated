@@ -1,4 +1,4 @@
-package com.example.iccmanager;
+package me.kristianconk.iccmanager;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
